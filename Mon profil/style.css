@@ -1,0 +1,106 @@
+/* Custom design general*/
+
+body {
+	background-color: #F2F3F5;
+	color: rgb(30, 30, 30);
+	font-family: arial;
+	font-weight: 100;
+}
+
+h1 {
+	color: #878DFB;
+	font-family: arial;
+	font-weight: 100;
+	font-size: 30px;
+}
+
+h2, h3, h4, h5 {
+	color: #06993A;
+	font-family: helvetica;
+	font-weight: 100;
+	font-size: 25px;
+}
+a {
+	text-decoration: none;
+	color: #878DFB;
+	font-weight: 100;
+}
+a:hover {
+	color: #06993A;
+}
+img {
+	width: 200px;
+	height: 150px;
+}
+
+/*Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+	width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+	width: 400px;
+	}
+}
+
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0,1)
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.bouton-blue {
+	background-color: #878DFB;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+.bouton-blue:hover {
+	background-color: #06993A;
+	color: white;
+}
+
+.liste-horizontale {
+	list-style: none;
+	padding-left: 0px;
+}
+.liste-horizontale li {
+	display: inline;
+	padding: 10px;
+}
+
+.bouton-vert {
+	background:#06993A;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+
+.bouton-vert:hover {
+	background-color: #878DFB;
+	color: white;
+}
+
+/*Custom design with id*/
+
+#introduction p {
+	margin-bottom: 40px;
+}
